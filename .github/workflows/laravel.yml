@@ -30,4 +30,4 @@ jobs:
       env:
         DB_CONNECTION: mysql
         DB_DATABASE: laravel
-      run: vendor/bin/phpunit
+      run: tests
