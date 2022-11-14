@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\HomeContoller;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +29,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
-
-route::get('/redirect',[HomeContoller::class,('redirect')]);
+/**
+ * @description show homepage of the site
+ */
+route::get('/redirect',[HomeController::class,('redirect')]);
