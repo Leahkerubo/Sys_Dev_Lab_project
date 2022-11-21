@@ -35,6 +35,9 @@
             "Tests\\": "tests/"
         }
     },
+    "conflict": {
+        "phpdocumentor/type-resolver": "<1.6.0"
+    },
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
