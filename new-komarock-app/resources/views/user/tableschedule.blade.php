@@ -7,7 +7,7 @@ table, th, td {
 
 
 <table style="width:100%">
-  <tr>
+  <tr style="background-color: #E5E5E5;">
     <th>Time</th>
     <th>Monday</th>
     <th>Tuesday</th>
