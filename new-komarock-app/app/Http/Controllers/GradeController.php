@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Grade;
-use App\Subject;
-use App\Teacher;
+use App\Models\Grade;
+use App\Models\Subject;
+use App\Models\Teacher;
 use Illuminate\Http\Request;
 
 class GradeController extends Controller

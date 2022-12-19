@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Grade;
-use App\Teacher;
+use App\Models\Grade;
+use App\Models\Teacher;
 use Carbon\Carbon;
-use App\Attendance;
+use App\Models\Attendance;
 use Illuminate\Http\Request;
 
 class AttendanceController extends Controller

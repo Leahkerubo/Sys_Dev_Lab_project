@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Subject;
-use App\Teacher;
+use App\Models\Subject;
+use App\Models\Teacher;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Str;

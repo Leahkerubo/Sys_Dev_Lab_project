@@ -1,6 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Grade;
+use App\Models\Parents;
+use App\Models\Student;
+use App\Models\Teacher;
+use App\Models\Subject;
 
 use Illuminate\Http\Request;
 

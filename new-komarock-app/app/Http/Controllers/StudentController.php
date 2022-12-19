@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
-use App\Grade;
-use App\Parents;
-use App\Student;
+use App\Models\User;
+use App\Models\Grade;
+use App\Models\Parents;
+use App\Models\Student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;

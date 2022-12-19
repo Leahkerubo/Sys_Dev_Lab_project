@@ -678,7 +678,7 @@ section.main-banner {
   padding-top: 180px;
 }
 
-.main-banner .right-image {
+/*.main-banner .right-image {
   margin-left: 120px;
   position: relative;
   z-index: 2;
@@ -697,11 +697,11 @@ section.main-banner {
   content: '';
   right: -25%;
   z-index: 1;
-}
+}*/
 
 .main-banner .header-text::after {
   position: absolute;
-  background-image: url(../images/banner-left-dec.png);
+  justify-content: center;
   width: 214px;
   height: 429px;
   content: '';
@@ -711,7 +711,8 @@ section.main-banner {
 }
 
 .main-banner .header-text h6 {
-  position: relative;
+  
+  justify-content: center;
   z-index: 2;
   font-size: 17px;
   font-weight: 500;
@@ -721,6 +722,7 @@ section.main-banner {
 
 .main-banner .header-text h2 {
   position: relative;
+  justify-content: center;
   z-index: 2;
   margin-top: 20px;
   font-size: 64px;
@@ -731,6 +733,7 @@ section.main-banner {
 }
 
 .main-banner .header-text h2 em {
+  justify-content: center;
   font-style: normal;
   color: #dc8cdb;
 }

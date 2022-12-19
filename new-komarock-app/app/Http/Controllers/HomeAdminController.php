@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Grade;
-use App\Parents;
-use App\Student;
-use App\Teacher;
-use App\Subject;
+use App\Models\Grade;
+use App\Models\Parents;
+use App\Models\Student;
+use App\Models\Teacher;
+use App\Models\Subject;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -25,6 +25,11 @@ class HomeAdminController extends Controller
         $this->middleware('auth');
     }
 
+    public function my_index(){
+        return Student::all();
+        //return User::all();
+    }
+
     /**
      * Show the application dashboard.
      *
@@ -39,6 +44,7 @@ class HomeAdminController extends Controller
             $parents = Parents::latest()->get();
             $teachers = Teacher::latest()->get();
             $students = Student::latest()->get();
+            //$students = Student::all()->get();
             $subjects = Subject::latest()->get();
             $classes = Grade::latest()->get();
 
